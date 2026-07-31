@@ -6,7 +6,7 @@ const routes = express.Router();
 routes.get('/', (req, res) => {
   return res.json({
     rotas_disponiveis: ['/estagio', '/junior', '/pleno', '/senior'],
-    repositorio: 'https://github.com/matheusaudibert/jobs-api'
+    repositorio: 'https://github.com/matheusaudibert/vagas-api'
   });
 });
 
